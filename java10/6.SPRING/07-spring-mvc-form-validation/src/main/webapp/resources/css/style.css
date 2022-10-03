@@ -1,0 +1,20 @@
+.error {
+	color: red;
+}
+
+form div {
+	margin: 8px 0;
+}
+
+.title {
+	background: green;
+	color: white;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}

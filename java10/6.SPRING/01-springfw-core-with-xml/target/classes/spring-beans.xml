@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<import resource="bean-overview.xml"/>
+	<import resource="bean-scope-lifecycle.xml"/>
+	<bean id="igx" class="com.spring.bean.ItemGroup">
+		<property name="id" value="123"></property>
+		<property name="name" value="Item Group X"></property>
+	</bean>
+	<bean id="itemA" class="com.spring.bean.Item" >
+		<property name="id" value="11"> </property>
+		<property name="name" value="Item 11"></property>
+		<!-- List -->
+		<property name="providers">
+			<list>
+				<value>P1</value>
+				<value>P2</value>
+				<value>P3</value>
+			</list>
+		</property>
+		<property name="itemGroup" ref="igx"></property>
+	</bean>
+	<bean id="itemB" class="com.spring.bean.Item" >
+		
+	</bean>
+	<bean id="itemC" class="com.spring.bean.Item" >
+		<constructor-arg name="id" value="12"></constructor-arg>
+		<constructor-arg name="name" value="Item 12"></constructor-arg>
+	</bean>
+	
+
+</beans>

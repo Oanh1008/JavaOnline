@@ -1,0 +1,65 @@
+/* Page 2 css */
+
+/* selectors */
+.ttt::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    margin-top: 10px;
+    
+}
+.ttt::after{
+   
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: red;
+}
+ ul >li> a{
+    text-decoration: none;
+}
+h1 ~ p{
+    color: green;
+}
+ol > *>a{
+    color: aqua;
+}
+a[href*="link"]{
+    background-color: yellow;
+}
+
+
+/* pseudo-classes form*/
+.inp-1:focus{
+    box-shadow: 0 0 5px green inset;
+    outline: none;
+    border: none;
+}
+.cbx-group input[type="checkbox"]:checked+label{
+    background-color: yellow;
+}
+
+.inp-3:invalid{
+    box-shadow: 0 0 2px red;
+}
+.inp-4:disabled{
+    color: black;
+}
+.inp-4:enabled{
+    color:  blue;
+}
+
+.pseu-do-classes-position p:first-child ,
+.pseu-do-classes-position p:last-child {
+    background-color: yellow;
+
+}
+
+/* nth start from 1 */
+.pseu-do-classes-position p:nth-last-child(-n+3){
+    color: red    ;
+
+}

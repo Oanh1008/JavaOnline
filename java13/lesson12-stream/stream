@@ -1,0 +1,21 @@
+
+
+
+filter Predicate    T->boolean
+
+map    Function <T,R> T->R
+
+
+reduce  T identity,BinaryOperator<T>  (T,T)->T
+
+flatMap    T identity,BinaryOperator<T,Stream<T>> T->R
+
+forEach    Consumer<T>                            T->void
+
+distinct
+
+limit
+
+skip
+
+sorted    Comparator<T>      (T,T) ->int 

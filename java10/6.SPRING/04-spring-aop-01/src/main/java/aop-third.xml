@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- step3: create aspect proxy(join point, advice) -->
+	<!--1 define join point -->
+	<bean id="movieService" class="com.spring.service.MovieService">
+		<property name="name" value="Avatar"></property>
+		<property name="catalog" value="Adventure"></property>
+		<!-- contain 2 join point method -->
+	</bean>
+	
+	<!--2.1 defined Advice -->
+	<bean id="movieServiceAroundAdvice" class="com.spring.aop.MovieAopAroundAdvice">
+	</bean>
+	<!--2.2 defined point cut Predicate to check matched method -->
+	<bean id="nameMatchPointCut" class="org.springframework.aop.support.NameMatchMethodPointcut">
+		<property name="mappedName" value="printName"></property>
+	</bean>
+	<!--2 define Advisor -->
+	<bean id="movieAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice" ref="movieServiceAroundAdvice"></property>
+		<property name="pointcut" ref="nameMatchPointCut"></property>
+	</bean>
+	<!--3 Auto Proxy  -->
+	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+</beans>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="674906bb-df74-46fe-96f0-023a1d956e90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/6.SPRING/06-spring-mvc-with-xml1/target/m2e-wtp/web-resources/META-INF/maven/com.spring.mvc/06-spring-mvc-with-xml1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/06-spring-mvc-with-xml1/target/m2e-wtp/web-resources/META-INF/maven/com.spring.mvc/06-spring-mvc-with-xml1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/06-spring-mvc-with-xml2/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/06-spring-mvc-with-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/06-spring-mvc-with-xml2/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/06-spring-mvc-with-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/07-spring-mvc-form-validation/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/06-spring-mvc-with-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/07-spring-mvc-form-validation/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/06-spring-mvc-with-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/08-spring-mvc-with-annotation1/target/m2e-wtp/web-resources/META-INF/maven/com.spring.mvc/08-spring-mvc-with-annotation1/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/08-spring-mvc-with-annotation1/target/m2e-wtp/web-resources/META-INF/maven/com.spring.mvc/08-spring-mvc-with-annotation1/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/09-spring-mvc-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/09-spring-mvc-webapp/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/09-spring-mvc-webapp/target/m2e-wtp/web-resources/META-INF/maven/com.springmvc/09-spring-mvc-webapp/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/configuration/WebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/configuration/WebAppConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/configuration/WebSecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/configuration/WebSecurityConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/java/com/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/webapp/WEB-INF/view/signin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/src/main/webapp/WEB-INF/view/signin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/configuration/WebAppConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/configuration/WebAppConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/configuration/WebSecurityConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/configuration/WebSecurityConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/classes/com/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/m2e-wtp/web-resources/META-INF/maven/com.security/10-spring-security-demo/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/6.SPRING/10-spring-security-demo/target/m2e-wtp/web-resources/META-INF/maven/com.security/10-spring-security-demo/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B6axm6Y8CxLvXYKoWv7mBWP3ay" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Workplace/Java14/2.JavaCore/lesson11-collection/src"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="674906bb-df74-46fe-96f0-023a1d956e90" name="Changes" comment="" />
+      <created>1656229236420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656229236420</updated>
+      <workItem from="1656229238578" duration="30000" />
+    </task>
+    <servers />
+  </component>
+</project>

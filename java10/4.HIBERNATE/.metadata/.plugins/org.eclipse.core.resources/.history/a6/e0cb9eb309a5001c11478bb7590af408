@@ -1,0 +1,23 @@
+package view;
+
+import java.sql.Connection;
+import java.util.Properties;
+
+import connection.DbProvider;
+import connection.Dbconnection;
+import service.ItemGroupService;
+
+public class App {
+	private static ItemGroupService itemGroupService;
+	static {
+		itemGroupService=new ItemGroupService();
+	}
+	public static void main(String[] args) {
+		
+		
+		Connection connection=Dbconnection.getConnection();
+		System.out.println(connection);
+		itemGroupService.getItemGroup().forEach(System.out::println);
+		
+	}
+}

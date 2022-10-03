@@ -1,0 +1,70 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import connection.Dbconnection;
+import persistence.ItemGroup;
+import utils.SqlUtils;
+
+public class ItemGroupDao {
+	private Connection conn;
+	private Statement st;
+	private ResultSet rs;
+	public List<ItemGroup> getAll() {
+		List<ItemGroup> igrs = new ArrayList<>();
+		String sql = "select Maloai,\n" + "		TenLoai, \n" + "		concat(MaLoai,TenLoai) as MaTenLoai \n"
+				+ " from loaihang";
+		conn = Dbconnection.getConnection();
+		
+		try {
+			st = conn.createStatement();
+			rs = st.executeQuery(sql);
+
+			// ResultSet =List<T> >> T: columns alias
+
+			// iterator
+			while (rs.next()) {
+				ItemGroup igr = new ItemGroup(rs.getInt("MaLoai"), rs.getString("TenLoai"));
+				igrs.add(igr);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				SqlUtils.close(st,rs,conn);
+			} catch (Exception e2) {
+			}
+		}
+		return igrs;
+	}
+	public List<ItemGroup> getItemGroups(int id) {
+		List<ItemGroup> igrs = new ArrayList<>();
+		String sql = "select *" 
+				+ " from loaihang"
+				+"where maloai= "+id;
+		 conn = Dbconnection.getConnection();
+		
+		try {
+			st = conn.createStatement();
+			rs = st.executeQuery(sql);
+			while (rs.next()) {
+				ItemGroup igr = new ItemGroup(rs.getInt("MaLoai"), rs.getString("TenLoai"));
+				igrs.add(igr);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				SqlUtils.close(st,rs,conn);
+			} catch (Exception e2) {
+			}
+		}
+		return igrs;
+	}
+	
+}

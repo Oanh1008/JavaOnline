@@ -1,0 +1,17 @@
+.item{
+    margin-top: 200px;
+   /* transition-property: transform ;
+     transition-duration: 2s;
+   transition-delay: 0;
+ 
+   transition-timing-function: linear; */
+
+   transition: all 5s 0s linear;
+
+}
+.item:hover{
+    border-radius: 50%;
+    transform: rotate(45deg)
+    translateX(100px)
+    
+}

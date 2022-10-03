@@ -1,0 +1,13 @@
+package utils;
+
+public class sqlutils {
+	public static void close(AutoCloseable ...autoCloseables) {
+		for(AutoCloseable closeable:autoCloseables) {
+			try {
+				closeable.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}
